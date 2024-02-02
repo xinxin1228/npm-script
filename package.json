@@ -1,0 +1,22 @@
+{
+  "name": "scripty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "port": 4120
+  },
+  "scripts": {
+    "cover:js": "scripty",
+    "cover:css": "scripty",
+    "cover:less": "echo \"执行了 cover:less\"",
+    "cover": "echo \"执行了 cover\"",
+    "release:patch": "npm version patch "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "scripty": "^2.1.1"
+  }
+}
