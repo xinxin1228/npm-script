@@ -11,7 +11,7 @@
     "cover:css": "scripty",
     "cover:less": "echo \"执行了 cover:less\"",
     "cover": "echo \"执行了 cover\"",
-    "release:patch": "npm version patch && git push && git push --tags"
+    "release:patch": "npm version patch && git push"
   },
   "keywords": [],
   "author": "",
